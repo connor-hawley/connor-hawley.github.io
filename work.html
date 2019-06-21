@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Connor Hawley</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="d-flex container flex-column align-items-stretch">
+    
+    <nav class="navbar navbar-expand-md rounded border border-white border-top-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
+    <div class="flex-column justify-content-between align-items-center flex-grow-1 mt-5 mb-5" id="main-blurb"> 
+        <!--Senior Design-->
+        <div class="row jumbotron border border-white">
+            <div class="col-md-4">
+                <a target="_blank" href="documents/capstone-poster.pdf">
+                    <img class="img-fluid rounded w-75 m-2" src="images/capstone-headphones.jpg", alt="capstone">
+                </a>
+            </div>
+            <div class="col-md-8 align-self-center">
+                <h3>
+                    <a class="clickme" target="_blank" href="documents/capstone-report.pdf">
+                        Design of Wireless Noise-Cancelling Headphones with Neuromorphic Hardware
+                    </a>
+                </h3>
+                <p>
+                    Under the guidance of our advisor <a class="clickme" target="blank" href="http://hasler.ece.gatech.edu/">Dr. Jennifer Hasler</a>, I collaborated primarily with fellow classmates <a class="clickme" target="_blank" href="https://www.linkedin.com/in/karthik-praturu-604a27170/">Karthik Praturu</a> and <a class="clickme" target="_blank" href="https://www.linkedin.com/in/matthew-kern-b04061150/">Matthew Kern</a> to design and prototype a pair of wireless headphones that performed noise cancellation with cutting-edge neuromorphic hardware known as the <a class="clickme" target="_blank" href="http://hasler.ece.gatech.edu/SoCFPAA.html">Field Programmable Analog Array (FPAA)</a>. Over the course of one semester, I did all prototyping and design work for the <a class="clickme" target="_blank" href="images/capstone-power.jpg">power tree</a> and noise cancellation algorithms on the FPAA, along with doing the final <a class="clickme" target="_blank" href="documents/capstone-design.pdf">system integration</a>, and I even had some time to breath in some solder fumes and help the team with board assembly.
+                </p>
+            </div>
+        </div>
+        <!--SpyderBot-->
+        <div class="row jumbotron border border-white">
+            <div class="col-md-4">
+                <a href="https://devpost.com/software/spyderbot" target="_blank">
+                    <img class="img-fluid rounded w-75 m-2" src="images/spyderbot.jpg", alt="headshot">
+                </a>
+            </div>
+            <div class="col-md-8 align-self-center">
+                <h3>
+                    <a class="clickme" href="https://devpost.com/software/spyderbot" target="_blank">
+                        SpyderBot
+                    </a>
+                </h3>
+                <p>
+                     For Georgia Tech's second ever hardware hackathon, my fellow ECE classmate, <a class="clickme" target="_blank" href="https://www.linkedin.com/in/chinmay-kulkarni-4328b4132/">Chinmay Kulkarni</a>, and I wanted to create a robot that mimics animal behavior, so we 3D printed the body and attached 12 servos to the arms. Then we made a custom servo shield for the arduino to interface and make wiring simpler. A bluetooth android app was developed to make it autonomous. I focused on developing software methods to create a higher level abstraction for movement control. This control problem sparked my interest in reinforcement learning.
+                </p>
+            </div>
+        </div>
+        <!--Alzheimer's Research-->
+        <div class="row jumbotron border border-white">
+            <div class="col-md-4">
+                <a href="documents/alzheimers-features.pdf" target="_blank">
+                    <img class="img-fluid rounded w-75 m-2" src="images/alzheimers.png", alt="alzheimers">
+                </a>
+            </div>
+            <div class="col-md-8 align-self-center">
+                <h3>
+                    <a class="clickme" href="documents/alzheimers-lit.pdf" target="_blank">
+                        Alzheimer's Disease Prediction from Voice
+                    </a>
+                </h3>
+                <p>
+                    I collaborated with Georgia Tech Faculty member <a class="clickme" href="https://www.ece.gatech.edu/faculty-staff-directory/elliot-moore-ii" target="_blank">Dr. Elliot Moore II</a> and Emory Doctor <a class="clickme" href="https://www.emoryhealthcare.org/physicians/h/hajjar-ihab.html" target="_blank">Ihab Hajjar</a> to unearth the predictive value of patient voice data. The first semester of the project I <a class="clickme" href="documents/alzheimers-features.pdf" target="_blank">segmented and processed</a> raw voice data files (.wav) to extract features for further analysis with state-of-the-art statistical feature extraction algorithms. The second semester of the project I <a class="clickme" href="documents/alzheimers-lit.pdf" target="_blank">analyzed</a> 10 papers to understand the current literature on Alzheimer’s Disease and signal processing to decide which research direction might be most fruitful.
+                </p>
+            </div>
+        </div>
+        <!--FlameBot-->
+        <div class="row jumbotron border border-white">
+            <div class="col-md-4">
+                <a href="https://devpost.com/software/flamebot" target="_blank">
+                    <img class="img-fluid rounded w-75 m-2" src="images/flamebot.jpg", alt="flamebot">
+                </a>
+            </div>
+            <div class="col-md-8 align-self-center">
+                <h3>
+                    <a class="clickme" target="_blank" href="https://devpost.com/software/flamebot">
+                        FlameBot
+                    </a>
+                </h3>
+                <p>
+                    For Georgia Tech's first ever hardware hackathon, fellow ECE classmate, <a class="clickme" target="_blank" href="https://www.linkedin.com/in/chinmay-kulkarni-4328b4132/">Chinmay Kulkarni</a>, and I wanted to build something ridiculous. I focused on making the bluetooth communications work, and he focused on wiring the physical actuators to our microcontroller, and we were able to build a <a class="clickme" target="_blank" href="https://www.youtube.com/watch?v=j1y5Kw3G6LE">small drone</a> that could be controlled via a smartphone accelerometer and a simple application. We even had extra time, so we tried to give it a purpose: to be a flamethrower (unfortunately, we could not find any wire that would heat up to the correct temperature and could not find an actuator powerful enough to releasr the butane).
+                </p>
+            </div>
+        </div>
+        <!--Opera Research-->
+        <div class="row jumbotron border border-white">
+            <div class="col-md-4">
+                <a target="_blank" href="documents/opera-poster.pdf">
+                    <img class="img-fluid rounded h-75 m-2" src="images/opera-spectrogram.jpg", alt="opera">
+                </a>
+            </div>
+            <div class="col-md-8 align-self-center">
+                <h3>
+                    <a class="clickme" target="_blank" href="documents/opera-report.pdf">
+                        Analysis of Opera Singers' Voices vs. Regular People
+                    </a>
+                </h3>
+                <p>
+                    I collaborated on a team of fellow undergrads and <a class="clickme" target="_blank" href="https://www.ece.gatech.edu/faculty-staff-directory/david-v-anderson">Dr. David Anderson</a> to organize and execute experiments in a multilingual work environment, partnering with the City of Metz’s opera to <a class="clickme" target="_blank" href="documents/opera-poster.pdf">learn more</a> about how professionally trained opera singers' voices differ from regular people's. For my contribution, I employed signal processing algorithms to ascertain how opera training changes vocal characteristics for the first semester. For the second semester of the project, I worked independently under Dr. Anderson to apply more sophisticated <a class="clickme" target="_blank" href="documents/opera-report.pdf">quantitative analysis</a> using techniques inspired by chaos theory (e.g. kurtosis, phase space).
+                </p>
+            </div>
+        </div>
+        <!--Meme Kombat
+        <div class="row jumbotron border border-white">
+            <div class="col-md-4">
+                <img class="img-fluid rounded w-75 m-2" src="images/headshot.jpg", alt="headshot">
+            </div>
+            <div class="col-md-8 align-self-center">
+                <h3>Meme Kombat</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+        -->
+    </div>
+    
+    <footer class="page-footer font-small rounded border border-white border-bottom-0 p-1">
+        <div class="row justify-content-between text-center m-2">
+            <div class="col-md-auto align-self-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/connor-hawley/" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/connor-hawley" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="mailto:connor.hawley4@gmail.com" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-auto align-self-center m-2">
+                <div class="footer-copyright text-white">
+                    © 2019 Connor Hawley
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

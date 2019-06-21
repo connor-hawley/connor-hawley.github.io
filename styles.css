@@ -1,0 +1,54 @@
+/*full size of viewport*/
+html, body {
+    height: 100%;
+}
+/*makes background work*/
+html { 
+    background: url("images/background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+body {
+    background-color: transparent;
+}
+/*background and font colors*/
+nav, footer, .jumbotron {
+    background-color: rgba(255,214,98,0.8);
+    color: white;
+}
+a {
+    color: white;
+}
+.clickme {
+    color:rgb(165, 236, 255);
+}
+.clickme:hover {
+    color:rgb(165, 236, 255);
+}
+/*makes navbar work*/
+.navbar {
+    padding: 0px;
+}
+.navbar-toggle {
+    display: inline-block;
+    float: none;
+}
+.navbar .nav-item:hover .nav-link {
+    background-color: rgba(255,214,98,0.95);
+    color: white;
+}
+/*makes jumbotron more comfortable to look at*/
+.jumbotron {
+    margin: 1rem;
+    padding: 1.5rem;
+}
+/*formatting for footer icons*/
+ul {
+    margin-bottom:0px;
+}
+.list-inline-item {
+    margin: 0rem 1rem;
+}
+.fa-bars, .fa-linkedin, .fa-github, .fa-envelope {
+    color: white;
+    font-size: 2rem;
+}
