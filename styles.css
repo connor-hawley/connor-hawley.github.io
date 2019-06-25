@@ -1,11 +1,11 @@
 /*medium devices and smaller will need to scroll*/
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
     /*as much space as viewport needs*/
     html, body {
         height: auto;
     }
 }
-@media (min-width: 991.98px) {
+@media (min-width: 767.98px) {
     /*full size of viewport*/
     html, body {
         height: 100%;
@@ -32,38 +32,27 @@ a {
 }
 /*makes navbar work*/
 .navbar {
-    padding-bottom: 10px;
+    padding: 0;
 }
 .navbar-toggle {
     position: absolute;
     top: 10px;
     left: 20px;
-    cursor: pointer;
     font-size: 24px;
 }
-.main-nav {
-    list-style-type: none;
-}
-.main-nav li {
-    text-align: center;
-    margin: 15px auto;
-}
-.main-nav li:hover a {
+.navbar-nav .nav-item:hover a {
     background-color: rgba(255,214,98,0.95);
     color: white;
+}
+/*gets rid of annoying footer list margin*/
+.list-unstyled {
+    margin: 0;
 }
 /*makes jumbotron more comfortable to look at*/
 .jumbotron {
     margin: 1rem;
     padding: 1.5rem;
 }
-/*formatting for footer icons*/
-/*ul {
-    margin-bottom:0px;
-}
-.list-inline-item {
-    margin: 0rem 1rem;
-}*/
 .fa-bars, .fa-linkedin, .fa-github, .fa-envelope {
     color: white;
     font-size: 2rem;
