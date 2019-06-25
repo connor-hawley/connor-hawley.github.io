@@ -3,7 +3,8 @@
 html, body {
     height: 100%;
 }
-@include media-breakpoint-down(md) {
+/*medium devices and smaller will need to scroll*/
+@media (max-width: 991.98px) {
     /*as much space as viewport needs*/
     html, body {
         height: auto;
