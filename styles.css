@@ -1,11 +1,13 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 /*full size of viewport*/
 html, body {
     height: 100%;
+}
+@include media-breakpoint-down(md) {
+    /*as much space as viewport needs*/
+    html, body {
+        height: auto;
+    }
 }
 /*makes background work*/
 html {
@@ -54,12 +56,12 @@ a {
     padding: 1.5rem;
 }
 /*formatting for footer icons*/
-ul {
+/*ul {
     margin-bottom:0px;
 }
 .list-inline-item {
     margin: 0rem 1rem;
-}
+}*/
 .fa-bars, .fa-linkedin, .fa-github, .fa-envelope {
     color: white;
     font-size: 2rem;
