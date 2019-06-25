@@ -1,13 +1,14 @@
-
-/*full size of viewport*/
-html, body {
-    height: 100%;
-}
 /*medium devices and smaller will need to scroll*/
 @media (max-width: 991.98px) {
     /*as much space as viewport needs*/
     html, body {
         height: auto;
+    }
+}
+@media (min-width: 991.98px) {
+    /*full size of viewport*/
+    html, body {
+        height: 100%;
     }
 }
 /*makes background work*/
