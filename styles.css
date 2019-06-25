@@ -3,8 +3,8 @@ html, body {
     height: 100%;
 }
 /*makes background work*/
-html { 
-    background: url("images/background.jpg") no-repeat center center fixed; 
+html {
+    background: url("images/background.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 body {
@@ -18,10 +18,7 @@ nav, footer, .jumbotron {
 a {
     color: white;
 }
-.clickme {
-    color:rgb(165, 236, 255);
-}
-.clickme:hover {
+.clickme, .clickme:hover {
     color:rgb(165, 236, 255);
 }
 /*makes navbar work*/
@@ -30,7 +27,6 @@ a {
 }
 .navbar-toggle {
     display: inline-block;
-    float: none;
 }
 .navbar .nav-item:hover .nav-link {
     background-color: rgba(255,214,98,0.95);
