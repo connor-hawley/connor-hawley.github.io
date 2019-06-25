@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /*full size of viewport*/
 html, body {
     height: 100%;
@@ -23,12 +28,23 @@ a {
 }
 /*makes navbar work*/
 .navbar {
-    padding: 0px;
+    padding-bottom: 10px;
 }
 .navbar-toggle {
-    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 24px;
 }
-.navbar .nav-item:hover .nav-link {
+.main-nav {
+    list-style-type: none;
+}
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.main-nav li:hover a {
     background-color: rgba(255,214,98,0.95);
     color: white;
 }
